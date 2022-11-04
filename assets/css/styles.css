@@ -123,3 +123,35 @@ body {
     border: 1px solid #1D1D1D;
     color: #1D1D1D;
 }
+
+@media only screen and (max-width: 1650px) {
+    .main {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .main {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .wrapper {
+        margin: 35px 0px;
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: 1fr 3fr 1fr;
+        gap: 1em;
+        grid-auto-rows: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        align-items: center;
+    }
+}
