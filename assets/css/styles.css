@@ -55,6 +55,17 @@ body {
     margin-right: auto;
 }
 
+.photo-container {
+    width: 87%;
+    border: 5px solid black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.photo-container img {
+    width: 100%;
+}
+
 .header {
     margin-top: 10px;
     font-family: 'Void_2058', sans-serif;
@@ -71,14 +82,14 @@ body {
 }
 
 .event { 
-    margin: 10px 0;
+    margin: 12px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .venue {
-    margin: 5px 0;
+    margin: 5px 0px 7px 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-align: center;
