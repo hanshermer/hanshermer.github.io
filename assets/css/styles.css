@@ -81,6 +81,7 @@ body {
     margin: 5px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 
 .wrapper {
@@ -104,8 +105,8 @@ body {
     /* background-image: url('../images/ibibio.png'); */
     background: linear-gradient(180deg, #FFD259 0%, rgba(255, 210, 89, 0) 20%), 
                 linear-gradient(360deg, #FFD259 0%, rgba(255, 210, 89, 0) 20.19%), 
-                linear-gradient(90deg, #FFD259 10%, rgba(255, 210, 89, 0) 50%), 
-                linear-gradient(274.81deg, #FFD259 10%, rgba(255, 210, 89, 0) 50%), 
+                linear-gradient(90deg, #FFD259 10%, rgba(255, 210, 89, 0) 20%), 
+                linear-gradient(274.81deg, #FFD259 10%, rgba(255, 210, 89, 0) 20%), 
                 url('../images/ibibio.png');
     width: 100%;
     height: 400px;
